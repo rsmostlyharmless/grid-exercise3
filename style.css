@@ -53,12 +53,16 @@
 #nav {
     background-color: rgba(130, 0, 0, 0.507);
     grid-area: nav;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1, 1fr;
 }
 
 #nav > ul {
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
+}
+
+li {
+    font-size: 1.2rem;
 }
 
 #article {
